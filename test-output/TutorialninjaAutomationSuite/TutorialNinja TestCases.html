@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  TutorialNinja TestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TutorialNinja TestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 04 10:53:41 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>567 seconds (567484 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithoutProvidingCredentials()'><b>verifyLoginWithoutProvidingCredentials</b><br>Test class: Testcases.Login</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Login@5b799640</td></tr>
+<tr>
+<td title='Testcases.Search.VerifySearchWithInvalidProduct()'><b>VerifySearchWithInvalidProduct</b><br>Test class: Testcases.Search</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Search@6cb107fd</td></tr>
+<tr>
+<td title='Testcases.Register.verifyRegisteringAccountWithoutFillingDetails()'><b>verifyRegisteringAccountWithoutFillingDetails</b><br>Test class: Testcases.Register</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Register@268f106e</td></tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: Testcases.Login<br>Parameters: durgamaheshvanum123@gmail.com, Mahesh@5451</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Login@5b799640</td></tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: Testcases.Login<br>Parameters: durgamahesh5451@gmail.com, 123456</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Login@5b799640</td></tr>
+<tr>
+<td title='Testcases.Forgotpassword.VerifyForgotpasswordWithoutEnteringFields()'><b>VerifyForgotpasswordWithoutEnteringFields</b><br>Test class: Testcases.Forgotpassword</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Forgotpassword@710636b0</td></tr>
+<tr>
+<td title='Testcases.Forgotpassword.VerifyForgotpasswordEnteringInCorrectemail()'><b>VerifyForgotpasswordEnteringInCorrectemail</b><br>Test class: Testcases.Forgotpassword</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Forgotpassword@710636b0</td></tr>
+<tr>
+<td title='Testcases.Forgotpassword.VerifyForgotpasswordEnteringCorrectemail()'><b>VerifyForgotpasswordEnteringCorrectemail</b><br>Test class: Testcases.Forgotpassword</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Forgotpassword@710636b0</td></tr>
+<tr>
+<td title='Testcases.Register.verifyRegisteringAccountByProvidingAllFields()'><b>verifyRegisteringAccountByProvidingAllFields</b><br>Test class: Testcases.Register</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Register@268f106e</td></tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: Testcases.Login</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Login@5b799640</td></tr>
+<tr>
+<td title='Testcases.Search.VerifySearchWithValidProduct()'><b>VerifySearchWithValidProduct</b><br>Test class: Testcases.Search</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Search@6cb107fd</td></tr>
+<tr>
+<td title='Testcases.Search.WithoutAnyProduct()'><b>WithoutAnyProduct</b><br>Test class: Testcases.Search</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Search@6cb107fd</td></tr>
+<tr>
+<td title='Testcases.Register.verifyRegisteringAccountWithMandatoryFields()'><b>verifyRegisteringAccountWithMandatoryFields</b><br>Test class: Testcases.Register</td>
+<td></td>
+<td>3</td>
+<td>Testcases.Register@268f106e</td></tr>
+<tr>
+<td title='Testcases.Register.verifyRegisteringAccountWithExistingEmailAddress()'><b>verifyRegisteringAccountWithExistingEmailAddress</b><br>Test class: Testcases.Register</td>
+<td></td>
+<td>4</td>
+<td>Testcases.Register@268f106e</td></tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithInvalidEmailAndValidPassword()'><b>verifyLoginWithInvalidEmailAndValidPassword</b><br>Test class: Testcases.Login</td>
+<td></td>
+<td>1</td>
+<td>Testcases.Login@5b799640</td></tr>
+<tr>
+<td title='Testcases.Login.verifyLoginWithValidEmailAndInvalidPassword()'><b>verifyLoginWithValidEmailAndInvalidPassword</b><br>Test class: Testcases.Login</td>
+<td></td>
+<td>1</td>
+<td>Testcases.Login@5b799640</td></tr>
+</table><p>
+</body>
+</html>
