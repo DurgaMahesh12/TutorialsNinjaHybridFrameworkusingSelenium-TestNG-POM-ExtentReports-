@@ -6,10 +6,10 @@
 </listeners>
   <test  name="TutorialNinja TestCases">
     <classes>
-      <class name="Testcases.Register"/>
-      <class name="Testcases.Login"/>
-      <class name="Testcases.Search"/>
-      <class name="Testcases.Forgotpassword"></class>
+      <class name="Testcases.RegisterTest"/>
+      <class name="Testcases.LoginTest"/>
+      <class name="Testcases.SearchTest"/>
+      <class name="Testcases.ForgotpasswordTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
